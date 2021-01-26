@@ -1,0 +1,24 @@
+env:
+  global:
+    - CONAN_USERNAME: "bobrofon"
+    - CONAN_CHANNEL: "testing"
+    - CONAN_UPLOAD: "https://api.bintray.com/conan/bobrofon/sshfs-world"
+    - CONAN_BUILD_POLICY: "missing"
+
+os: linux
+arch:
+  - amd64
+dist: bionic
+language: python
+python:
+  - "3.9"
+compiler:
+  - gcc
+
+install:
+  - chmod +x .travis/install.sh
+  - ./.travis/install.sh
+
+script:
+  - chmod +x .travis/run.sh
+  - ./.travis/run.sh

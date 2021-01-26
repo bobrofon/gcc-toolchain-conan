@@ -1,0 +1,13 @@
+sources:
+  "armv6":
+    sha256: 68e2b87faefa0f394970005c77deceae030b6f06a9b9845da237f81cbe65eb38
+    url: "https://github.com/bobrofon/build-universe/releases/download/v0.5.2-1/arm-unknown-linux-gnueabi.tar.xz"
+  "armv8":
+    sha256: 18d6927ee4be3071d9ceb4fc85066de6cb062efa6573c9f8c3e14d9db93ff456
+    url: "https://github.com/bobrofon/build-universe/releases/download/v0.5.2-1/aarch64-unknown-linux-gnueabi.tar.xz"
+  "x86":
+    sha256: 60ddd4fc58682330c14b6c693856a037840de38b12e0c8cf66500e36de877bbd
+    url: "https://github.com/bobrofon/build-universe/releases/download/v0.5.2-1/i686-unknown-linux-gnu.tar.xz"
+  "x86_64":
+    sha256: e8d4cabf9bf5e9a708a6ee9485a4d38536890e745f97cfe5d6afd29c4023f63e
+    url: "https://github.com/bobrofon/build-universe/releases/download/v0.5.2-1/x86_64-unknown-linux-gnu.tar.xz"
